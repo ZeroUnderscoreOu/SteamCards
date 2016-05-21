@@ -26,7 +26,7 @@ switch (document.location.hostname) {
 		TmpElem = TmpElem.appendChild(document.createElement("Span"));
 		TmpElem = TmpElem.appendChild(document.createElement("Img"));
 		TmpElem.className = "ico16";
-		TmpElem.src = "//store.akamai.steamstatic.com/public/images/v6/ico/ico_cards.png";
+		TmpElem.src = "//raw.githubusercontent.com/ZeroUnderscoreOu/SteamCards/master/SteamCards.png";
 		TargetElem.insertBefore(
 			document.createTextNode(" "),
 			TargetElem.firstChild
