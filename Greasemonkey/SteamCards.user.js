@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name        SteamCards
 // @author      ZeroUnderscoreOu
-// @version     1.1.0-alpha
-// @icon        https://raw.githubusercontent.com/ZeroUnderscoreOu/SteamCards/master/SteamCards.png
+// @version     1.1.1-alpha
+// @icon        https://raw.githubusercontent.com/ZeroUnderscoreOu/SteamCards/master/Logo128.png
 // @downloadURL https://raw.githubusercontent.com/ZeroUnderscoreOu/SteamCards/master/Greasemonkey/SteamCards.user.js
 // @updateURL   https://raw.githubusercontent.com/ZeroUnderscoreOu/SteamCards/master/Greasemonkey/SteamCards.user.js
 // @namespace   https://github.com/ZeroUnderscoreOu/
@@ -40,7 +40,7 @@ switch (document.location.hostname) {
 		);
 		TmpElem = TmpElem.parentElement.parentElement.cloneNode(true), // SCE button
 		TmpElem.href = "http://www.steamcardexchange.net/index.php?gamepage-appid-" + AppId;
-		TmpElem.getElementsByTagName("Img")[0].src = "//raw.githubusercontent.com/ZeroUnderscoreOu/SteamCards/master/SteamCardExchangeLogo.png";
+		TmpElem.getElementsByTagName("Img")[0].src = "//raw.githubusercontent.com/ZeroUnderscoreOu/SteamCards/master/SteamCardExchange18.png";
 		TargetElem.insertBefore(
 			TmpElem,
 			TargetElem.firstChild
@@ -113,7 +113,7 @@ switch (document.location.hostname) {
 				Value: "",
 				HRef: "http://www.steamcardexchange.net/index.php?gamepage-appid-"
 					+ AppId.replace("tag_app_",""),
-				Src: "//raw.githubusercontent.com/ZeroUnderscoreOu/SteamCards/master/SteamCardExchangeLogo.png",
+				Src: "//raw.githubusercontent.com/ZeroUnderscoreOu/SteamCards/master/SteamCardExchange18.png",
 				Alt: "Steam Card Exchange"
 			}
 		];
